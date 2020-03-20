@@ -201,7 +201,7 @@ else:
 if MODE == "1":
     WritePubsHashes()
     print("begining munin")
-    command = "python c:\\Users\\patrick.roland\\munin\\munin.py -f unackpubs{}{}.csv".format(locale, date.today())
+    command = "python C:\\Users\\adm.rz.proland\\Documents\\GitHub\\munin\\munin.py -f unackpubs{}{}.csv".format(locale, date.today())
     print(command)
     os.system(command)
     dateoffile = date.today()
